@@ -1,1 +1,2 @@
-console.log("Lab 03 - NodeJS Setup Completed");
+const myModule = require('./my-module.js');
+console.log(myModule.myFunction());
